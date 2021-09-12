@@ -1,3 +1,4 @@
 # Blog
 
-[Bounty Hacker](bounty_hacker)
+- [Bounty Hacker](bounty_hacker)
+- [LazyAdmin](lazyadmin)
