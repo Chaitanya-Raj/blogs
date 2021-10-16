@@ -1,10 +1,4 @@
-# TryHackMe | LazyAdmin
-
-[LazyAdmin](https://tryhackme.com/room/lazyadmin)
-
-## Deploy the Machine
-
-The instructions are pretty clear for this one. SMASH THAT GREEN BUTTON!!!
+# TryHackMe | [LazyAdmin](https://tryhackme.com/room/lazyadmin)
 
 ## What is the user flag?
 

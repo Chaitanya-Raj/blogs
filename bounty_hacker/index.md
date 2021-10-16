@@ -1,10 +1,4 @@
-# TryHackMe | Bounty Hacker
-
-[Bounty Hacker](https://tryhackme.com/room/cowboyhacker)
-
-## Deploy the Machine
-
-The instructions are pretty clear for this one. SMASH THAT GREEN BUTTON!!!
+# TryHackMe | [Bounty Hacker](https://tryhackme.com/room/cowboyhacker)
 
 ## Find open ports on the machine
 
